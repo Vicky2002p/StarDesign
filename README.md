@@ -1,6 +1,6 @@
 # StarDesign
 Applying looping logic to get different designs
-Done is 2 different languages:
+In 2 different languages:
 Python
 C
 
