@@ -49,8 +49,8 @@ def square(length):
         print("* "*length)
 
 
-# Function for hollow rectangle
-def holloRectangle(length):
+# Function for hollow square
+def hollowSquare(length):
     for num in range(length):
         if num == 0 or num == length-1:
             print("* "*length)
@@ -91,7 +91,7 @@ diamond(5)
 print()
 square(5)
 print()
-holloRectangle(5)
+hollowSquare(5)
 print()
 rhombus(5)
 print()
