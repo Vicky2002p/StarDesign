@@ -1,7 +1,10 @@
 # StarDesign
 Applying looping logic to get different designs
+Done is 2 different languages:
+Python
+C
 
-How to run:
+How to run for Python:
 Provided you have already installed python on you device, simply open this code in you IDE.
 In your terminal, while being in the same folder as the path of the code file, type:
 python filename.py
