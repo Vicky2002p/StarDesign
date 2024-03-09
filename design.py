@@ -73,7 +73,19 @@ def oneTriOnAnother(height):
     for num in range(1, height):
         print(" "*(height-num-1), "* "*(num+1))
 
-
+def zigZag( num ):
+    for i in range(1, num+1):
+        if(i==0):
+            print("*")
+        if( i % 2 == 0):
+            print("  *")
+        elif( i % 3==0 and i != 9):
+            print("    *")
+        elif( i % 7==0 or i== 11):
+            print("    *")
+        else:
+            print("*")
+            
 
 leftTraingle(6)
 print()
@@ -97,4 +109,4 @@ rhombus(5)
 print()
 oneTriOnAnother(5)
 print()
-        
+zigZag(13)
